@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #5eca61;
+  text-align: left;
+}
+
+tr.selected {
+  background-color: #f0f0f0;
+}
+
+.pagination-container {
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.pagination-buttons {
+  display: inline-flex;
+}
+.darkorlight {
+  background-color: black !important;
+  margin-left: 15vw;
+}
+.darkorlight:hover {
+  box-shadow: 1px 1px 20px white;
+}
+
+button {
+  background-color: #5eca61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+
+button.active {
+  background-color: #2a622d;
+}
+
+.delete-selected-container {
+  margin-top: 20px;
+}
